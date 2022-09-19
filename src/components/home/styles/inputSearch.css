@@ -1,0 +1,19 @@
+.container-input-search {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: start;
+  justify-content: center;
+}
+.imput-search-label{  
+color: rgb(86, 48, 48)
+}
+.input-search{
+  width: 95%;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
