@@ -23,9 +23,9 @@ const FormLogin = ({setIsLooged}) => {
 
   return (
     <form onSubmit={handleSubmit(submit)} className='login__form'>
-      <h2 className='login__title'>Welcome! Enter your email and password to continue</h2>
+      <h2 className='login__title'>Hi! Login to Continue </h2>
       <div className='login__div'>
-        <label className='login__label' htmlFor="email">Email</label>
+        <label className='login__label' htmlFor="email">Email (quienespepito@gmail.com)</label>
         <input 
           {...register('email')}
           className='login__input'
@@ -34,7 +34,7 @@ const FormLogin = ({setIsLooged}) => {
         />
       </div>
       <div className='login__div'>
-        <label className='login__label' htmlFor="password">Password</label>
+        <label className='login__label' htmlFor="password">Password (juancamilo22)</label>
         <input 
           {...register('password')} 
             className='login__input' 
